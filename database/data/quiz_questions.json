@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "trait": "Body Frame & Physical Build",
+    "hindiTrait": "शारीरिक गठन और बनावट",
+    "options": [
+      {
+        "text": "Slender, light bones, find it difficult to gain weight",
+        "hindiText": "दुबला-पतला शरीर, हल्की हड्डियां, वजन बढ़ाना मुश्किल",
+        "dosha": "vata"
+      },
+      {
+        "text": "Medium, well-proportioned, athletic frame, easy to gain or lose weight",
+        "hindiText": "मध्यम सुगठित शरीर, वजन आसानी से घटता-बढ़ता है",
+        "dosha": "pitta"
+      },
+      {
+        "text": "Broad, heavy bones, solid build, tendency to gain weight easily",
+        "hindiText": "चौड़ा, भारी शरीर, मजबूत हड्डियां, वजन तेजी से बढ़ता है",
+        "dosha": "kapha"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "trait": "Skin Texture & Sensitivity",
+    "hindiTrait": "त्वचा का प्रकार और संवेदनशीलता",
+    "options": [
+      {
+        "text": "Dry, rough, thin, cool to the touch, prone to chapping in winters",
+        "hindiText": "रूखी, खुरदरी, ठंडी त्वचा, सर्दियों में फटने की प्रवृत्ति",
+        "dosha": "vata"
+      },
+      {
+        "text": "Warm, reddish undertone, sensitive, prone to acne, moles or flushing",
+        "hindiText": "गर्म, गुलाबी रंगत, संवेदनशील, मुहांसे या तिल की संभावना",
+        "dosha": "pitta"
+      },
+      {
+        "text": "Thick, oily, smooth, cool, soft, radiant and ages slowly",
+        "hindiText": "चिकनी, तैलीय, कोमल, चमकदार और धीमी गति से ढलने वाली त्वचा",
+        "dosha": "kapha"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "trait": "Appetite & Digestive Pattern (Agni)",
+    "hindiTrait": "भूख और पाचन की स्थिति (जठराग्नि)",
+    "options": [
+      {
+        "text": "Irregular, variable; sometimes starving, sometimes forget to eat; prone to gas/bloating",
+        "hindiText": "अनियमित भूख; कभी बहुत तेज तो कभी भूख न लगना; गैस व अफारे की शिकायत",
+        "dosha": "vata"
+      },
+      {
+        "text": "Intense, sharp; get irritable if meals are delayed; prone to acidity or loose bowels",
+        "hindiText": "तीव्र भूख; समय पर खाना न मिलने पर चिड़चिड़ापन; एसिडिटी की समस्या",
+        "dosha": "pitta"
+      },
+      {
+        "text": "Steady, slow, can easily skip meals without discomfort; digestion takes longer",
+        "hindiText": "धीमी व स्थिर भूख; भोजन न मिलने पर भी परेशानी नहीं; खाना पचने में समय लगता है",
+        "dosha": "kapha"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "trait": "Sleep Pattern & Dreams",
+    "hindiTrait": "नींद की प्रकृति और स्वप्न",
+    "options": [
+      {
+        "text": "Light, interrupted, 5-6 hours, restless thoughts, wake up easily",
+        "hindiText": "हल्की व टूटती नींद, 5-6 घंटे, मन में विचार, हल्की आवाज पर भी जाग जाना",
+        "dosha": "vata"
+      },
+      {
+        "text": "Moderate 6-7 hours, wake up alert, occasional vivid or fiery dreams",
+        "hindiText": "मध्यम 6-7 घंटे, जागने पर ऊर्जावान, रंगीन या स्पष्ट सपने",
+        "dosha": "pitta"
+      },
+      {
+        "text": "Deep, heavy, 8+ hours, find it hard to wake up early morning",
+        "hindiText": "गहरी, भारी नींद, 8 घंटे से ज्यादा, सुबह उठने में आलस्य",
+        "dosha": "kapha"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "trait": "Weather & Temperature Preference",
+    "hindiTrait": "मौसम और तापमान की पसंद",
+    "options": [
+      {
+        "text": "Dislike cold and windy weather, love warm sunlight and hot baths",
+        "hindiText": "ठंड और हवादार मौसम नापसंद, धूप और गर्म पानी से नहाना प्रिय",
+        "dosha": "vata"
+      },
+      {
+        "text": "Dislike heat and intense sun, crave cold drinks and cool rooms",
+        "hindiText": "गर्मी और तेज धूप बर्दाश्त नहीं, ठंडी चीजें और एसी पसंद",
+        "dosha": "pitta"
+      },
+      {
+        "text": "Dislike damp, cold, humid rain; thrive in dry and warm weather",
+        "hindiText": "गीला, ठंडा व सीलन भरा मौसम नापसंद; सूखा व गर्म मौसम भाता है",
+        "dosha": "kapha"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "trait": "Stress Response & Mental State",
+    "hindiTrait": "तनाव में व्यवहार और मानसिक स्थिति",
+    "options": [
+      {
+        "text": "Anxious, worry quickly, overthink, mind jumps from one thought to another",
+        "hindiText": "चिंतित होना, जल्दी घबराना, ज्यादा सोचना, विचारों में चंचलता",
+        "dosha": "vata"
+      },
+      {
+        "text": "Impulsive, irritated, frustrated, critical or competitive under pressure",
+        "hindiText": "गुस्सा आना, चिड़चिड़ापन, लक्ष्य के प्रति अत्यधिक आक्रामक होना",
+        "dosha": "pitta"
+      },
+      {
+        "text": "Calm, avoid conflict, withdraw, can become stubborn or complacent",
+        "hindiText": "शांत रहना, झगड़े से बचना, सुस्त या आलसी हो जाना",
+        "dosha": "kapha"
+      }
+    ]
+  }
+]

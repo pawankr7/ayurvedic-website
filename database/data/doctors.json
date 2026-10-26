@@ -1,0 +1,41 @@
+[
+  {
+    "id": "doc-01",
+    "name": "Dr. Acharya Vidyadhar Sharma",
+    "hindiName": "डॉ. आचार्य विद्याधर शर्मा",
+    "degree": "BAMS, MD (Ayurveda - Dravyaguna), PhD",
+    "experienceYears": 32,
+    "specialization": "Dravyaguna (Herbal Pharmacology) & Classical Formulations",
+    "hindiSpecialization": "द्रव्यगुण (औषधीय विज्ञान) एवं शास्त्रीय योग",
+    "bio": "Former Professor of Dravyaguna at National Institute of Ayurveda, Jaipur. Has cataloged 400+ medicinal plants and oversees AARU's botanical identification and ethical wildcrafting guidelines.",
+    "hindiBio": "राष्ट्रीय आयुर्वेद संस्थान, जयपुर के पूर्व प्रोफेसर। 400 से अधिक वनस्पतियों के शोधकर्ता एवं आरु के फॉर्मूलेशन के मुख्य संरक्षक।",
+    "avatar": "/team/dr-sharma.jpg",
+    "registrationNumber": "AYUSH-REG-1992-0481"
+  },
+  {
+    "id": "doc-02",
+    "name": "Dr. Ananya R. Joshi",
+    "hindiName": "डॉ. अनन्या आर. जोशी",
+    "degree": "BAMS, MS (Ayurveda - Prasuti & Stri Roga)",
+    "experienceYears": 18,
+    "specialization": "Women's Hormonal Health, PCOD & Prenatal Care",
+    "hindiSpecialization": "स्त्री रोग, पीसीओडी एवं मातृत्व स्वास्थ्य विशेषज्ञ",
+    "bio": "Pioneer in non-hormonal classical regimens for ovarian health. Has successfully guided over 12,000 women through gentle lifestyle and herb-led menstrual rebalancing.",
+    "hindiBio": "हार्मोनल संतुलन और गर्भाशय स्वास्थ्य में 18 वर्षों का क्लिनिकल अनुभव। 12,000 से अधिक महिलाओं को प्राकृतिक स्वास्थ्य लाभ दिलाया।",
+    "avatar": "/team/dr-joshi.jpg",
+    "registrationNumber": "AYUSH-REG-2006-8812"
+  },
+  {
+    "id": "doc-03",
+    "name": "Dr. B. K. Ramanathan",
+    "hindiName": "डॉ. बी. के. रामनाथन",
+    "degree": "BAMS, Fellow in Panchakarma (Kerala)",
+    "experienceYears": 24,
+    "specialization": "Panchakarma Detox, Gut Agni & Chronic Joint Care",
+    "hindiSpecialization": "पंचकर्म, पाचन शुद्धि एवं जोड़ विकार विशेषज्ञ",
+    "bio": "Trained under hereditary Ashta-Vaidya lineage in Thrissur, Kerala. Formulates AARU's joint oils and Gut Reset Regimens with authentic Kshirpak and Sneha Paka methods.",
+    "hindiBio": "केरल के पारम्परिक अष्टवैद्य घराने से प्रशिक्षित। जोड़ों के तेल और आंतों के शोधन में विशेषज्ञता।",
+    "avatar": "/team/dr-ramanathan.jpg",
+    "registrationNumber": "AYUSH-REG-2000-1194"
+  }
+]

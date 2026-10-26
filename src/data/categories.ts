@@ -1,0 +1,246 @@
+import { Category } from '@/types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: "gut-digestion",
+    slug: "gut-digestion",
+    name: "Gut & Digestion Care",
+    hindiName: "पाचन एवं पेट की देखभाल",
+    description: "Support natural digestive fire (Agni), relieve bloating, acidity, and promote healthy intestinal flora with time-tested Ayurvedic formulations.",
+    hindiDescription: "कब्ज, गैस, एसिडिटी से राहत और पाचन अग्नि को प्राकृतिक रूप से संतुलित करने वाले शास्त्रीय योग।",
+    iconName: "Apple",
+    badge: "Most Popular",
+    seoTitle: "Ayurvedic Gut & Digestion Care | Acidity, Bloating & Constipation Relief - AARU",
+    seoDescription: "Explore lab-verified Ayurvedic remedies for gut health, acidity, bloating, and healthy metabolism. Formulated with authentic Triphala, Hing, and Haritaki.",
+    faqs: [
+      {
+        question: "How long does it take for Ayurvedic gut formulations to show results?",
+        answer: "Most customers notice gentle digestive ease and regular morning movements within 3 to 7 days, with lasting gut microbiome balance in 30 to 60 days.",
+        hindiQuestion: "आयुर्वेदिक पाचन औषधियों का असर कितने दिनों में दिखता है?",
+        hindiAnswer: "हल्कापन और पेट साफ होने का असर 3 से 7 दिनों में महसूस होता है, जबकि स्थायी संतुलन 30 से 60 दिनों में आता है।"
+      },
+      {
+        question: "Can I take Triphala daily?",
+        answer: "Yes, authentic Triphala in moderate dosage is a safe Rasayana traditionally consumed daily to support gentle assimilation and natural colon detox.",
+        hindiQuestion: "क्या त्रिफला का प्रतिदिन सेवन सुरक्षित है?",
+        hindiAnswer: "हाँ, त्रिफला को आयुर्वेद में रसायन माना गया है और अनुशंसित मात्रा में इसका दैनिक सेवन सुरक्षित है।"
+      }
+    ]
+  },
+  {
+    id: "womens-wellness",
+    slug: "womens-wellness",
+    name: "Women's Wellness",
+    hindiName: "महिला आरोग्य एवं शक्ति",
+    description: "Hormonal equilibrium, menstrual comfort, postnatal nourishment, and menopause support through classical herbs like Shatavari, Lodhra, and Ashoka.",
+    hindiDescription: "हार्मोनल संतुलन, पीसीओडी/अनियमित पीरियड्स में सहायता और मातृत्व पोषण के लिए शुद्ध जड़ी-बूटियां।",
+    iconName: "HeartPulse",
+    badge: "Doctor Formulated",
+    seoTitle: "Ayurvedic Women's Wellness & Hormonal Balance Supplements | AARU",
+    seoDescription: "Nurture female vitality with lab-tested Shatavari, Ashoka, and Lodhra formulations for regular periods, PCOD support, and calm menopause transition.",
+    faqs: [
+      {
+        question: "Does this help during painful menstrual cycles?",
+        answer: "Yes, classical herbs like Ashoka and Lodhra traditionally calm uterine spasms and support smooth flow without synthetic hormones.",
+        hindiQuestion: "क्या यह कष्टदायक मासिक धर्म में मदद करता है?",
+        hindiAnswer: "हाँ, अशोका और लोध्र गर्भाशय की मांसपेशियों को शांत करते हैं और प्राकृतिक आराम पहुंचाते हैं।"
+      }
+    ]
+  },
+  {
+    id: "mens-vitality",
+    slug: "mens-vitality",
+    name: "Men's Vitality & Stamina",
+    hindiName: "पुरुष ऊर्जा एवं स्टैमिना",
+    description: "NABL-tested Himalayan Shilajit, Safed Musli, and Gokshura to support physical resilience, stamina, and cellular energy.",
+    hindiDescription: "हिमालयन शुद्ध शिलाजीत, सफेद मूसली और कौंच बीज से भरपूर प्राकृतिक पौरुष ऊर्जा और सहनशक्ति।",
+    iconName: "Zap",
+    badge: "100% Pure Shilajit",
+    seoTitle: "Pure Shilajit & Men's Vitality Ayurvedic Formulations | AARU",
+    seoDescription: "Authentic Grade-A Himalayan Shilajit resin & stamina capsules. Tested for 0% heavy metals and verified 65%+ fulvic acid content.",
+    faqs: [
+      {
+        question: "How do I verify the purity of AARU Shilajit?",
+        answer: "Every pack carries a batch QR code. Scan it to view the NABL laboratory certificate verifying >65% fulvic acid and zero toxic heavy metals.",
+        hindiQuestion: "आरु शिलाजीत की शुद्धता की पुष्टि कैसे करें?",
+        hindiAnswer: "प्रत्येक पैक पर एक बैच क्यूआर कोड है जिसे स्कैन करके आप लैब रिपोर्ट में फुल्विक एसिड व हेवी मेटल जांच देख सकते हैं।"
+      }
+    ]
+  },
+  {
+    id: "metabolic-balance",
+    slug: "metabolic-balance",
+    name: "Metabolic Balance",
+    hindiName: "मेटाबॉलिक स्वास्थ्य एवं शुगर संतुलन",
+    description: "Support healthy carbohydrate metabolism, cholesterol wellness, and optimum weight management with bitter tonics and Vijaysar.",
+    hindiDescription: "करेला, जामुन, गुड़मार और विजयसार युक्त प्राकृतिक मेटाबॉलिज्म एवं शुगर स्तर संतुलन सूत्र।",
+    iconName: "Activity",
+    seoTitle: "Ayurvedic Metabolic & Healthy Sugar Support | AARU",
+    seoDescription: "Herbal support for balanced blood sugar and metabolic energy. Formulated with Vijaysar, Karela, Jamun, and Methi.",
+    faqs: [
+      {
+        question: "Can I take this alongside regular physician-advised care?",
+        answer: "Ayurvedic botanicals support natural metabolism. We recommend consulting your healthcare provider and leaving a 45-minute interval between intakes.",
+        hindiQuestion: "क्या इसे डॉक्टर की अन्य सलाह के साथ लिया जा सकता है?",
+        hindiAnswer: "हाँ, सामान्यतः 45 मिनट के अंतराल के साथ लिया जा सकता है। चिकित्सक से परामर्श अवश्य करें।"
+      }
+    ]
+  },
+  {
+    id: "joint-bone-pain",
+    slug: "joint-bone-pain",
+    name: "Joint, Bone & Pain Care",
+    hindiName: "जोड़, हड्डी एवं दर्द निवारण",
+    description: "Soothe joint stiffness, nurture cartilage, and preserve bone density with Boswellia (Shallaki), Yograj Guggulu, and Mahanarayan Taila.",
+    hindiDescription: "घुटनों, कमर और जोड़ों के दर्द एवं जकड़न से प्राकृतिक राहत देने वाले तेल और योग।",
+    iconName: "ShieldCheck",
+    seoTitle: "Ayurvedic Joint Care & Knee Mobility Oils & Capsules | AARU",
+    seoDescription: "Relieve stiffness and enhance mobility with classical Shallaki, Nirgundi, and Guggulu. 100% vegetarian formulations.",
+    faqs: [
+      {
+        question: "Is Mahanarayan Taila effective for knee stiffness?",
+        answer: "Yes, warm application of Mahanarayan oil lubricates the joint capsule, pacifies aggravated Vata dosha, and enhances flexibility.",
+        hindiQuestion: "क्या महानारायण तेल घुटने के दर्द में असरदार है?",
+        hindiAnswer: "हाँ, गुनगुने तेल की मालिश से जोड़ों में रक्त संचार बेहतर होता है और वात शांत होता है।"
+      }
+    ]
+  },
+  {
+    id: "sleep-stress-mind",
+    slug: "sleep-stress-mind",
+    name: "Sleep, Stress & Mind",
+    hindiName: "तनाव मुक्ति एवं गहरी नींद",
+    description: "Soothe the nervous system (Majja Dhatu), quiet mental chatter, and restore deep REM sleep with Medhya Rasayanas like Brahmi, Shankhpushpi, and Ashwagandha.",
+    hindiDescription: "ब्राह्मी, शंखपुष्पी और अश्वगंधा से मानसिक तनाव दूर कर प्राकृतिक रूप से गहरी नींद पाएं।",
+    iconName: "Moon",
+    badge: "Non-Habit Forming",
+    seoTitle: "Natural Ayurvedic Sleep & Stress Relief Supplements | AARU",
+    seoDescription: "Non-habit forming botanical sleep aid. Combines Brahmi and KSM-66 Ashwagandha for calm nights and energized mornings.",
+    faqs: [
+      {
+        question: "Is this sleep formulation habit-forming?",
+        answer: "No. Classical Medhya herbs work by soothing sensory over-exhaustion naturally without synthetic sedative compounds.",
+        hindiQuestion: "क्या इसकी आदत पड़ जाती है?",
+        hindiAnswer: "बिल्कुल नहीं। यह एक प्राकृतिक रसायन है जो बिना किसी लत के मन को शांत करता है।"
+      }
+    ]
+  },
+  {
+    id: "immunity-seasonal",
+    slug: "immunity-seasonal",
+    name: "Immunity & Seasonal Care",
+    hindiName: "रोग प्रतिरोधक क्षमता एवं मौसमी सुरक्षा",
+    description: "Strengthen Ojas and respiratory resilience with Giloy, Tulsi, Curcumin, and Ritucharya seasonal protectors.",
+    hindiDescription: "गिलोय, तुलसी और हरिद्रा युक्त दैनिक इम्युनिटी बूस्टर जो मौसमी बदलावों से सुरक्षा देते हैं।",
+    iconName: "Shield",
+    seoTitle: "Ayurvedic Immunity Boosters & Seasonal Care (Ritucharya) | AARU",
+    seoDescription: "Pure Giloy and Tulsi extracts to build natural defense and respiratory health across changing seasons.",
+    faqs: [
+      {
+        question: "What is Ritucharya in Ayurveda?",
+        answer: "Ritucharya is the classical science of dietary and lifestyle adaptation across seasonal transitions to prevent doshic imbalance.",
+        hindiQuestion: "आयुर्वेद में ऋतुचर्या क्या है?",
+        hindiAnswer: "ऋतुचर्या विभिन्न मौसमों के अनुसार आहार और दिनचर्या ढालने का विज्ञान है जिससे स्वास्थ्य बना रहे।"
+      }
+    ]
+  },
+  {
+    id: "kids-wellness",
+    slug: "kids-wellness",
+    name: "Kids' Wellness",
+    hindiName: "बच्चों का स्वास्थ्य एवं पोषण",
+    description: "Age-appropriate Ayurvedic tonics to support healthy appetite, natural defense, memory, and wholesome growth without refined sugars.",
+    hindiDescription: "बच्चों की भूख, शारीरिक विकास और स्मरण शक्ति के लिए सुरक्षित, सुपाच्य प्राकृतिक टॉनिक।",
+    iconName: "Sparkles",
+    badge: "No Refined Sugar",
+    seoTitle: "Safe Ayurvedic Nutrition & Immunity for Children | AARU Kids",
+    seoDescription: "Gentle herbal remedies for kids appetite, digestion, and focus. Free from artificial colors and preservatives.",
+    faqs: [
+      {
+        question: "From what age can children take AARU Junior syrup?",
+        answer: "Formulated gently for children aged 3 years and above. Please adhere to the recommended age-wise measuring spoon dosage.",
+        hindiQuestion: "आरु जूनियर सिरप किस उम्र से दिया जा सकता है?",
+        hindiAnswer: "यह 3 वर्ष और उससे अधिक उम्र के बच्चों के लिए विशेष रूप से तैयार किया गया है।"
+      }
+    ]
+  },
+  {
+    id: "hair-skin",
+    slug: "hair-skin",
+    name: "Hair & Skin Care",
+    hindiName: "केश एवं त्वचा सौंदर्य",
+    description: "Botanical oils and internal blood-purifiers (Raktashodhaka) with Bhringraj, Manjistha, and Neem for strong hair roots and clear radiant glow.",
+    hindiDescription: "भृंगराज तेल, मंजिष्ठा और नीम से बालों का झड़ना रोकें और त्वचा को अंदर से निखारें।",
+    iconName: "Feather",
+    seoTitle: "Authentic Bhringraj Hair Oil & Ayurvedic Skin Care | AARU",
+    seoDescription: "Cold-pressed Kshirpak Bhringraj oil for hair fall control and Manjistha blood purifier for radiant skin.",
+    faqs: [
+      {
+        question: "What is the Kshirpak method for hair oil?",
+        answer: "Kshirpak is an ancient multi-day decoction process boiling herbs in cow's milk and sesame oil until only pure herb-infused lipid remains.",
+        hindiQuestion: "क्षीरपाक विधि क्या होती है?",
+        hindiAnswer: "क्षीरपाक एक प्राचीन विधि है जिसमें जड़ी-बूटियों को दूध और तिल के तेल में धीमी आंच पर पकाया जाता है।"
+      }
+    ]
+  },
+  {
+    id: "daily-rasayana",
+    slug: "daily-rasayana",
+    name: "Daily Rasayana",
+    hindiName: "दैनिक रसायन एवं पौष्टिक आहार",
+    description: "Timeless longevity elixirs: gold-leaf Chyawanprash, wild Amla juices, pure A2 Bilona Cow Ghee, and herbal teas for whole-body vitality.",
+    hindiDescription: "स्वर्ण भस्म युक्त आधुनिक च्यवनप्राश, आंवला स्वरस और गिर गाय का शुद्ध ए2 बिलोना घी।",
+    iconName: "Sun",
+    badge: "Authentic Bilona",
+    seoTitle: "Ayurvedic Daily Rasayana, A2 Ghee & Herbal Chyawanprash | AARU",
+    seoDescription: "Elevate everyday vitality with hand-churned A2 Vedic ghee, wild forest honey, and organic Amla rasayana.",
+    faqs: [
+      {
+        question: "How is AARU A2 Ghee prepared?",
+        answer: "Made strictly using the traditional Bilona method: curd made from indigenous Gir cow whole milk is hand-churned clockwise and counter-clockwise.",
+        hindiQuestion: "आरु ए2 घी कैसे तैयार होता है?",
+        hindiAnswer: "यह शुद्ध भारतीय गिर गाय के दूध से दही बनाकर पारंपरिक बिलोना विधि द्वारा मथा जाता है।"
+      }
+    ]
+  },
+  {
+    id: "classical-medicines",
+    slug: "classical-medicines",
+    name: "Classical Medicines",
+    hindiName: "शास्त्रीय औषधियां (अर्क, वटी, आसव)",
+    description: "Ayurvedic Pharmacopoeia standardized churnas, vatis, asavas, arishtas, and tailas prepared in strict accordance with Sharangdhar and Charaka texts.",
+    hindiDescription: "आयुर्वेदिक संहिताओं के प्रमाणिक सूत्रों के आधार पर निर्मित विशुद्ध वटी, घृत, आसव और चूर्ण।",
+    iconName: "BookOpen",
+    badge: "AYUSH Certified",
+    seoTitle: "Authentic Classical Ayurvedic Medicines (Vati, Asava, Taila) | AARU",
+    seoDescription: "Traditional pharmacopoeia formulations manufactured in GMP-certified facilities with full batch test traceability.",
+    faqs: [
+      {
+        question: "What makes AARU classical medicines different?",
+        answer: "Every single lot is tested for pesticide residues, heavy metals, and botanical identity before release, with results openly accessible via QR code.",
+        hindiQuestion: "आरु शास्त्रीय औषधियां क्यों खास हैं?",
+        hindiAnswer: "हर बैच की लैब में हेवी मेटल व शुद्धता जांच होती है जिसे आप क्यूआर कोड से देख सकते हैं।"
+      }
+    ]
+  },
+  {
+    id: "kits-combos",
+    slug: "kits-combos",
+    name: "Kits & Combos",
+    hindiName: "सम्पूर्ण 30/60/90 दिन के उपचार किट",
+    description: "Comprehensive lifestyle regimens combining targeted internal herbs, external oils, dietary guidance, and doctor consultation support.",
+    hindiDescription: "आहार चार्ट, दिनचर्या मार्गदर्शिका और औषधियों का सम्पूर्ण 30, 60 या 90 दिवसीय संयोजन।",
+    iconName: "Layers",
+    badge: "Save Up To 25%",
+    seoTitle: "30, 60 & 90 Day Complete Ayurvedic Regimen Kits | AARU",
+    seoDescription: "Holistic health kits for Gut Detox, Joint Care, and Vitality with free doctor consultation and custom diet guide.",
+    faqs: [
+      {
+        question: "Do the kits include a dietary guide?",
+        answer: "Yes, every AARU kit includes a printed Dinacharya (daily routine) & Pathya-Apathya (dietary do's and don'ts) chart.",
+        hindiQuestion: "क्या किट में डाइट चार्ट भी मिलता है?",
+        hindiAnswer: "हाँ, हर किट के साथ दिनचर्या और क्या खाएं क्या न खाएं का विस्तृत चार्ट दिया जाता है।"
+      }
+    ]
+  }
+];

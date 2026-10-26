@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "understanding-your-prakriti-ayurveda-guide",
+    "title": "Understanding Your Prakriti: The Classical Guide to Vata, Pitta, and Kapha",
+    "hindiTitle": "अपनी प्रकृति को समझें: वात, पित्त और कफ का शास्त्रीय रहस्य",
+    "excerpt": "Learn how ancient Vaidyas diagnosed individual biological types and how customizing your diet to your Dosha transforms energy and longevity.",
+    "hindiExcerpt": "जानिए आपकी जन्मजात शारीरिक प्रकृति क्या है और अपने दोष के अनुसार भोजन चुनकर कैसे सदैव निरोगी रहें।",
+    "category": "Ayurvedic Foundations",
+    "author": "Dr. Acharya Vidyadhar Sharma",
+    "reviewer": "Dr. Ananya R. Joshi",
+    "readTime": "6 min read",
+    "date": "October 18, 2024",
+    "coverImage": "/blog/prakriti-guide.jpg",
+    "content": "Ayurveda recognizes that no two human bodies are identical. What acts as medicine for an airy, dry Vata person may cause acidity in a fiery Pitta individual...",
+    "hindiContent": "आयुर्वेद का मूल सिद्धांत है कि हर मनुष्य की प्रकृति अनूठी होती है। जो भोजन वात प्रकृति के लिए अमृत है, वही पित्त प्रकृति के लिए एसिडिटी का कारण बन सकता है...",
+    "tags": [
+      "Prakriti",
+      "Dosha",
+      "Dinacharya",
+      "Gut Health"
+    ]
+  },
+  {
+    "slug": "ritucharya-seasonal-health-transitions",
+    "title": "Ritucharya: How to Shift Your Diet & Routine Across Indian Seasons",
+    "hindiTitle": "ऋतुचर्या: मौसम के बदलाव में बीमारियों से बचने के आयुर्वेदिक नियम",
+    "excerpt": "Why seasonal transitions (Ritusandhi) trigger 80% of infections, and the specific herbs to take during monsoon (Varsha) and winter (Hemanta).",
+    "hindiExcerpt": "मौसम बदलते ही खांसी-जुकाम और बुखार क्यों घेर लेते हैं? जानिए ऋतुसंधि में शरीर को सुरक्षित रखने के सरल उपाय।",
+    "category": "Ritucharya & Lifestyle",
+    "author": "Dr. B. K. Ramanathan",
+    "reviewer": "Dr. Acharya Vidyadhar Sharma",
+    "readTime": "8 min read",
+    "date": "October 10, 2024",
+    "coverImage": "/blog/ritucharya.jpg",
+    "content": "During Ritusandhi (the 14-day bridge between two seasons), the environmental elements change faster than the human digestive fire can adapt...",
+    "hindiContent": "जब एक मौसम समाप्त होकर दूसरा शुरू होता है (ऋतुसंधि), तब हमारी जठराग्नि कमजोर पड़ जाती है...",
+    "tags": [
+      "Ritucharya",
+      "Immunity",
+      "Amla",
+      "Giloy"
+    ]
+  },
+  {
+    "slug": "why-heavy-metals-occur-in-herbs-and-how-aaru-tests-every-batch",
+    "title": "The Science of Ayurvedic Purity: Why We Test Every Batch for Heavy Metals",
+    "hindiTitle": "आयुर्वेदिक शुद्धता का विज्ञान: हम हर बैच की हेवी मेटल जांच क्यों करते हैं?",
+    "excerpt": "An open, transparent look at soil absorption of lead and mercury, why unregulated local powders fail tests, and how AARU verifies 100% safety with NABL labs.",
+    "hindiExcerpt": "बाजार में मिलने वाले चूर्ण और भस्मों में लेड व पारे की मिलावट से कैसे बचें? जानिए आरु के लैब परीक्षण की पूरी प्रक्रिया।",
+    "category": "Quality & Science",
+    "author": "Quality Team at AARU Labs",
+    "reviewer": "Dr. Acharya Vidyadhar Sharma",
+    "readTime": "5 min read",
+    "date": "October 02, 2024",
+    "coverImage": "/blog/lab-testing.jpg",
+    "content": "Medicinal plants draw nutrients through their root systems. If cultivated near industrial runoff or untreated irrigation waters, herbs absorb lead, cadmium, and arsenic...",
+    "hindiContent": "औषधीय पौधे मिट्टी से पोषण लेते हैं। यदि उन्हें प्रदूषित जल या रसायनों वाले खेतों में उगाया जाए, तो वे हानिकारक तत्वों को सोख लेते हैं...",
+    "tags": [
+      "Lab Testing",
+      "NABL",
+      "Safety",
+      "Batch Verification"
+    ]
+  }
+]

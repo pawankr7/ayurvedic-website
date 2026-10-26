@@ -1,0 +1,113 @@
+/* AARU AYURVEDA - Custom Luxury Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-forest: #1F4D3A;
+  --color-forest-dark: #143527;
+  --color-forest-light: #2C684E;
+  --color-gold: #C8922B;
+  --color-gold-hover: #B07E20;
+  --color-gold-light: #F7E9CF;
+  --color-cream: #FAF6EC;
+  --color-cream-card: #F4EFE2;
+  --color-earth: #3B2F25;
+  --color-sage: #DDE5D6;
+  --color-sage-light: #EEF3E9;
+}
+
+body {
+  font-family: 'Outfit', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--color-cream);
+  color: var(--color-earth);
+  overflow-x: hidden;
+}
+
+.font-serif-luxury {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.03em;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8922B;
+  border-radius: 4px;
+}
+
+/* Button & Badge Utilities */
+.btn-gold {
+  background-color: var(--color-gold);
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+}
+.btn-gold:hover {
+  background-color: var(--color-gold-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(200, 146, 43, 0.35);
+}
+
+.btn-forest {
+  background-color: var(--color-forest);
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+}
+.btn-forest:hover {
+  background-color: var(--color-forest-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(31, 77, 58, 0.35);
+}
+
+.badge-lab-verified {
+  background-color: rgba(31, 77, 58, 0.1);
+  color: #1F4D3A;
+  border: 1px solid rgba(31, 77, 58, 0.25);
+}
+
+.badge-gold {
+  background-color: #FBF4E4;
+  color: #9E6F18;
+  border: 1px solid #E6CA8D;
+}
+
+/* Animated Toast */
+#toast-notification {
+  transform: translateY(120%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#toast-notification.show {
+  transform: translateY(0);
+}
+
+/* Cart Drawer */
+#cart-backdrop {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+#cart-drawer {
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+body.cart-open #cart-backdrop {
+  opacity: 1;
+  pointer-events: auto;
+}
+body.cart-open #cart-drawer {
+  transform: translateX(0);
+}
+
+/* Botanical Card Hover */
+.botanical-card {
+  transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
+.botanical-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(31, 77, 58, 0.15);
+}

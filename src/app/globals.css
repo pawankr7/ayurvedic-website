@@ -1,0 +1,217 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --forest-primary: #1F4D3A;
+    --forest-dark: #143527;
+    --forest-light: #2A684F;
+    --saffron-gold: #C8922B;
+    --saffron-light: #DFAB48;
+    --saffron-glow: rgba(200, 146, 43, 0.18);
+    --warm-cream: #FAF6EC;
+    --warm-cream-alt: #F3EBD8;
+    --earth-brown: #3B2F25;
+    --earth-brown-light: #5A4A3C;
+    --soft-sage: #DDE5D6;
+    --soft-sage-light: #EEF3EA;
+    --alert-coral: #B84A39;
+    --pure-white: #FFFFFF;
+    
+    --background: var(--warm-cream);
+    --foreground: var(--earth-brown);
+  }
+
+  * {
+    border-color: #E6DFC8;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-serif-ayur {
+    font-family: var(--font-heading), 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+
+  .font-hindi {
+    font-family: var(--font-hindi), 'Noto Sans Devanagari', sans-serif;
+  }
+}
+
+/* Custom Botanical & Aesthetic Utilities */
+.bg-forest-primary { background-color: var(--forest-primary); }
+.bg-forest-dark { background-color: var(--forest-dark); }
+.bg-forest-light { background-color: var(--forest-light); }
+.bg-saffron-gold { background-color: var(--saffron-gold); }
+.bg-saffron-light { background-color: var(--saffron-light); }
+.bg-warm-cream { background-color: var(--warm-cream); }
+.bg-warm-cream-alt { background-color: var(--warm-cream-alt); }
+.bg-soft-sage { background-color: var(--soft-sage); }
+.bg-soft-sage-light { background-color: var(--soft-sage-light); }
+.bg-earth-brown { background-color: var(--earth-brown); }
+
+.text-forest-primary { color: var(--forest-primary); }
+.text-forest-dark { color: var(--forest-dark); }
+.text-saffron-gold { color: var(--saffron-gold); }
+.text-saffron-light { color: var(--saffron-light); }
+.text-earth-brown { color: var(--earth-brown); }
+.text-earth-brown-light { color: var(--earth-brown-light); }
+
+.border-forest-primary { border-color: var(--forest-primary); }
+.border-saffron-gold { border-color: var(--saffron-gold); }
+.border-soft-sage { border-color: var(--soft-sage); }
+.border-warm-border { border-color: #E6DFC8; }
+
+/* Custom Glass & Shimmer */
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 146, 43, 0.22);
+}
+
+.glass-card-forest {
+  background: rgba(31, 77, 58, 0.94);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(200, 146, 43, 0.35);
+}
+
+.gold-badge {
+  background: linear-gradient(135deg, #FAF6EC 0%, #F5E8C7 50%, #FAF6EC 100%);
+  border: 1px solid #C8922B;
+  color: #3B2F25;
+}
+
+.gold-gradient-btn {
+  background: linear-gradient(135deg, #C8922B 0%, #E3B456 50%, #B88320 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(200, 146, 43, 0.3);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gold-gradient-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(200, 146, 43, 0.45);
+}
+
+.forest-gradient-btn {
+  background: linear-gradient(135deg, #1F4D3A 0%, #2A684F 100%);
+  color: #FAF6EC;
+  box-shadow: 0 4px 14px rgba(31, 77, 58, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.forest-gradient-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(31, 77, 58, 0.35);
+  background: linear-gradient(135deg, #143527 0%, #1F4D3A 100%);
+}
+
+/* Subtle botanical pattern overlay */
+.bg-botanical-pattern {
+  background-image: radial-gradient(#C8922B 0.75px, transparent 0.75px), radial-gradient(#1F4D3A 0.75px, var(--warm-cream) 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.05;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--warm-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: #C8922B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1F4D3A;
+}
+
+/* Print styles for NABL Lab report & Invoices */
+@media print {
+  header, footer, .no-print, .sticky-mobile-bar {
+    display: none !important;
+  }
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+}
+
+/* Premium Animations & Micro-interactions */
+@keyframes gold-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.92; transform: scale(1.02); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(200, 146, 43, 0) 0%, rgba(200, 146, 43, 0.25) 50%, rgba(200, 146, 43, 0) 100%);
+  background-size: 200% 100%;
+  animation: gold-shimmer 3.5s infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float-slow 5s ease-in-out infinite;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #C8922B 0%, #F5CE7A 50%, #B88320 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-forest-gradient {
+  background: linear-gradient(135deg, #1F4D3A 0%, #2A684F 50%, #143527 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shadow-ayur {
+  box-shadow: 0 10px 30px -10px rgba(31, 77, 58, 0.12), 0 4px 6px -2px rgba(31, 77, 58, 0.05);
+}
+
+.shadow-gold {
+  box-shadow: 0 10px 30px -10px rgba(200, 146, 43, 0.25), 0 4px 6px -2px rgba(200, 146, 43, 0.1);
+}
+
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.ornament-divider::before,
+.ornament-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgba(200, 146, 43, 0.35);
+}
+.ornament-divider:not(:empty)::before {
+  margin-right: 1.5em;
+}
+.ornament-divider:not(:empty)::after {
+  margin-left: 1.5em;
+}
+

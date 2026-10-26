@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /ayurvedic%20ecommerce/
+
+    # Allow direct access to real files and directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Clean product URLs
+    RewriteRule ^product/([^/]+)/?$ product.php?slug=$1 [L,QSA]
+
+    # Clean category URLs
+    RewriteRule ^shop/([^/]+)/?$ shop.php?category=$1 [L,QSA]
+
+    # Clean landing pages
+    RewriteRule ^lp/gut-care/?$ lp-gut-care.php [L,QSA]
+    RewriteRule ^lp/womens-wellness/?$ lp-womens-wellness.php [L,QSA]
+    RewriteRule ^lp/joint-care/?$ lp-joint-care.php [L,QSA]
+</IfModule>
+
+DirectoryIndex index.php index.html

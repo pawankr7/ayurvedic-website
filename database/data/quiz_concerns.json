@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gut",
+    "label": "Gut, Acidity & Digestion",
+    "hindiLabel": "पाचन, गैस व एसिडिटी",
+    "slug": "triphala-gut-detox"
+  },
+  {
+    "id": "sleep",
+    "label": "Sleep & Stress Relief",
+    "hindiLabel": "अनिद्रा व मानसिक तनाव",
+    "slug": "brahmi-ashwagandha-calm-sleep"
+  },
+  {
+    "id": "vitality",
+    "label": "Stamina & Physical Energy",
+    "hindiLabel": "स्टैमिना व शारीरिक कमजोरी",
+    "slug": "shilajit-gold-stamina-resin"
+  },
+  {
+    "id": "women",
+    "label": "Hormones & Menstrual Care",
+    "hindiLabel": "हार्मोनल संतुलन व पीरियड्स",
+    "slug": "shatavari-pcod-hormone-balance"
+  },
+  {
+    "id": "joints",
+    "label": "Joint Mobility & Back Stiffness",
+    "hindiLabel": "जोड़ों का दर्द व घुटने की जकड़न",
+    "slug": "shallaki-guggul-joint-flex"
+  },
+  {
+    "id": "rasayana",
+    "label": "Daily Immunity & Overall Vitality",
+    "hindiLabel": "रोग प्रतिरोधक क्षमता व ओजस",
+    "slug": "swarna-prash-amla-chyawanprash"
+  }
+]
